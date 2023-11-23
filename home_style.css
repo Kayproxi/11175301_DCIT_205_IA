@@ -1,0 +1,17 @@
+body{
+    background-image: url("OIP.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    font font-family: "Sofia", sans-serif;
+}
+div{
+    align-items: center;
+    border:4px solid black;
+    height: 500px;
+    width: 500px;
+}
+h1{
+    border:2px solid rgb(231, 209, 10);
+    color: rgb(47, 0, 255);
+    text-align: center;
+}
