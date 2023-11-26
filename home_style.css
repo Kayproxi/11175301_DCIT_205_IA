@@ -1,7 +1,11 @@
 body{
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: black;
+    background-image: url("campus.jpg");
+    background-repeat: repeat-x, repeat-y;
+    background-position: center;
+    background-size: 1500px 1100px;
+    background-color: rgb(241, 241, 233);
 }
 
 h1{
@@ -30,7 +34,7 @@ nav ul {
     color: #fff;
     text-decoration: none;
   }
-  div {
+  div nav {
     background-color: rgba(0, 89, 255, 0.637);
     border: 5px solid  rgb(231, 209, 10);
     margin-top: 5px;
@@ -38,10 +42,24 @@ nav ul {
   }
 
 a:hover{
-    color:rgb(231, 209, 10) ;
+    color:rgb(245, 219, 22) ;
     background-color: black;
 }
 a:active{
     color:rgb(231, 209, 10) ;
 
+}
+.SC {
+    text-align:center;
+}
+.main{
+    background-color:rgba(0, 89, 255, 0.637) ;
+    margin-right:350px;
+    margin-left:350px;
+}
+h3, p{
+    color: #fff;
+}
+div a {
+    text-decoration: none;
 }
