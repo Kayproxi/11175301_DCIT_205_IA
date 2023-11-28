@@ -1,7 +1,7 @@
 body{
     font-family: Arial, sans-serif;
     margin: 0;
-    background-image: url("campus.jpg");
+    background-image: url("IMG_E1408.JPG");
     background-repeat: repeat-x, repeat-y;
     background-position: center;
     background-size: 1500px 1100px;
@@ -71,9 +71,4 @@ p{
 }
 div a {
     text-decoration: none;
-}
-img {
-    border-radius: 30px;
-    height: 100px;
-    width: 100px;
 }

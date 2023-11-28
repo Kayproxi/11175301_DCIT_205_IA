@@ -1,75 +1,90 @@
 body{
     font-family: Arial, sans-serif;
     margin: 0;
-    background-image: url("campus.jpg");
+    background-image: url("IMG_E1408.JPG");
     background-repeat: repeat-x, repeat-y;
     background-position: center;
-    background-size: 1500px 1700px;
+    background-size: 1500px 1400px;
     background-color: rgb(241, 241, 233);
 }
+
 h1{
     border:5px solid rgb(231, 209, 10);
-    color: rgb(255, 255, 255);
+    color: rgb(20, 19, 19);
     text-align: center;
     margin-bottom: 1px;
     background-color: rgba(0, 89, 255, 0.637);
     border-radius: 10px;
+    font-size: 35px;
+
+
 }
+
 nav ul {
     list-style: none;
     margin-left: 10px;
     padding: 0;
 
   }
-nav li {
+  
+  nav li {
     display: inline-block;
     margin-right: 10px;
+    
   }
-nav a {
+  
+  nav a {
     color: #fff;
     text-decoration: none;
   }
-div nav {
+  div nav {
     background-color: rgba(0, 89, 255, 0.637);
     border: 5px solid  rgb(231, 209, 10);
     margin-top: 5px;
     border-radius: 10px;
   }
+
 a:hover{
     color:rgb(245, 219, 22) ;
     background-color: black;
 }
 a:active{
     color:rgb(231, 209, 10) ;
+
 }
+.SC {
+    text-align:center;
+}
+
 p{
-  font-size: 20px;
-}
-p.one{
     color: #fff;
-    line-height: 25px;
-}
-p.two{
-  color: #fff;
-  line-height: 25px;
-}
-p.three{
-  color: #fff;
-  line-height: 25px;
-}
-p.four{
-  color: #fff;
-  line-height: 25px;
-}
-div.main{
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align :center;
     background-color: rgba(0, 89, 255, 0.637);
-    margin-right:100px;
-    margin-left:100px;
-    border: 2px solid   rgb(231, 209, 10) ;
-    margin-top: 30px;
+    border:2px solid rgb(231, 209, 10);
     border-radius: 10px;
-    color: #fff;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 20px;
+
+}
+
+img{
+    height: 300px;
+    width: 500px;
+    margin-left: 500px;
+    margin-right: 400px;
+    border-radius: 10px;
+    
+}
+h3{
+    
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align :center;
+    background-color: rgba(0, 89, 255, 0.637);
+    border:2px solid rgb(231, 209, 10);
+    border-radius: 10px;
+    padding-right: 20px;
+    font-size: 35px;
 
 }
